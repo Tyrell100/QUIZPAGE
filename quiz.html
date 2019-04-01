@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Quiz</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+
+    <p>Welcome to my quiz page.Have fun!</p>
+<div class="well">
+<p>Name</p><input type="text">
+<form id = "quiz" >
+    <p>Question 1</p><br>
+    <p>Which of the following is a search engine?</p>
+    <input type="radio" name="q1"  id= "q1"value="Ubuntu">Ubuntu<br>
+    <input type="radio" name="q1"id= "q1" value="Apple">Apple<br>
+    <input type="radio" name="q1" id= "q1"value="Safari">Safari<br>
+</div>
+<br>
+<div class="well">
+    <p>Question 2</p><br>
+    <p>Which of the following is not a programming language?</p>
+    <input type="radio" name="q2" id= "q2"value="C++">C++<br>
+    <input type="radio" name="q2"id= "q2" value="HTML">HTML<br>
+    <input type="radio" name="q2"id= "q2" value="Latin">Latin<br>
+
+</div>
+<br>
+<div class="well">
+    <p>Question 3</p><br>
+    <p>Which of the following is the best football player?</p>
+    <input type="radio" name="q3" id="q3" value="Messi">Messi<br>
+    <input type="radio" name="q3" id="q3"value="Ronaldo">Ronaldo<br>
+    <input type="radio" name="q3"id="q3" value="Neymar">Neymar<br>
+<br>
+</div>
+<div class="well">
+    <p>Question 4</p><br>
+    <p>Which of the following was not an American presidential candidate?</p>
+    <input type="radio" name="q4"id="q4"value="Trump">Trump<br>
+    <input type="radio" name="q4"id="q4" value="Clinton">Clinton<br>
+    <input type="radio" name="q4" id="q4" value="Akothee">Akothee<br>
+<br>
+</div>
+<div class="well">
+    <p>Question 5</p><br>
+    <p>What is the capital city of Kenya?</p>
+    <input type="radio" name="q5"id="q5" value="Rongai">Rongai<br>
+    <input type="radio" name="q5" id="q5"value="Nairobi">Nairobi<br>
+    <input type="radio" name="q5" id="q5"value="Compton">Compton<br>
+</div>
+</body><br>
+</form>
+
+
+    <input type="button" name="results" value="SUBMIT" id="button"  onClick= "validate()">
+    <div id="show"></div>
+    <p id= "final">This is your score:</p>
+    <script src="scripts.js"></script>
+</body>
+</html>
